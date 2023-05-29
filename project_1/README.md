@@ -1,22 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Exploring climate data of Singapore
 
-If you combine your problem statement, data dictionary, brief summary of your analysis, and conclusions/recommendations, you have an amazing README.md file that quickly aligns your audience to the contents of your project. Don't forget to cite your data sources!
-
-### Overview
-
-Our first module in DSI covers:
-- Basic statistics and probability
-- Many Python programming concepts
-- Programmatically interacting with files and directories
-- Visualizations
-- EDA
-- Working with Jupyter notebooks for development and reporting
-
-You might wonder if you're ready to start doing data science. While you still have **tons** to learn, there are many aspects of the data science process that you're ready to tackle. Project 1 aims to allow you to practice and demonstrate these skills.
-
-For our first project, we're going to analyze climate trends in Singapore. Climate refers to the general weather conditions prevailing over an area for a long period. There are several aspect to studying climate that includes rainfall, temperature, relative humidity, wet build temperature, sun shine duration etc.
-
-
 ### Problem Statement
 
 Dengue fever has been a significant public health concern in Singapore, impacting the population's health and well-being. The country has experienced periodic outbreaks of dengue fever, with varying intensities and geographical spread. The disease is transmitted by the Aedes mosquito and can lead to severe symptoms, hospitalizations, and, in some cases, fatalities. Analyzing the trends of dengue fever cases is of utmost importance as it provides valuable insights into the patterns and dynamics of the disease. Understanding the factors that contribute to the spread of dengue, including rainfall patterns, enables health authorities to implement targeted prevention and control measures. By analyzing the trends, authorities can better allocate resources, enhance mosquito control efforts, and educate the public about effective preventive measures. This analysis plays a crucial role in mitigating the impact of dengue fever on the Singapore population and improving overall public health outcomes.
@@ -45,4 +28,8 @@ Other relevant weather datasets from [data.gov.sg](data.gov.sg) that you can dow
 * [`weekly-number-of-dengue-cases.csv`](../data/weekly-number-of-dengue-cases/weekly-number-of-dengue-and-dengue-haemorrhagic-fever-cases.csv.csv): Weekly number of lab-confirmed dengue and dengue haemorrhagic fever cases from 2014 to 2018
 
 ---
+### Summary of Analysis
 
+
+---
+### Conclusions/Recommendations
