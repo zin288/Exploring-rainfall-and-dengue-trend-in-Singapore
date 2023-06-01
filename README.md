@@ -50,7 +50,7 @@ Based on the analysis, one recommendation will be to make use of the monthly rai
 
 ## References
 
-<a id="1">c[1]</a> 
+<a id="1">[1]</a> 
 National Medical Research Council (NMRC). (n.d.). Integrated Dengue Surveillance in Singapore. Retrieved from https://www.nmrc.gov.sg/docs/default-source/about-us-library/idtf-summary-report.pdf
 
 <a id="2">[2]</a> 
@@ -62,4 +62,3 @@ Met Office. (n.d.). Singapore Holiday Weather Guide. Retrieved from https://www.
 <a id="4">[4]</a> 
 Ng, L. C., et. al (2018). IL-1β, IL-6, and RANTES as biomarkers of Chikungunya severity. PLOS Neglected Tropical Diseases, 12(5), e0006935. https://doi.org/10.1371/journal.pntd.0006935
 
-<a id="5">[5]</a> 
