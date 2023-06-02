@@ -1,4 +1,4 @@
-date,maximum_rainfall_in_a_day,no_of_rainy_days,total_rainfall,wbt_mean,wbt_min,wbt_max,mean_rh,mean_temp,dengue
+date,maximum_rainfall_in_a_day,no_of_rainy_days,total_rainfall,wbt_mean,wbt_min,wbt_max,mean_rh,mean_temp,dengue_cases
 1982-01-01,36.5,10.0,107.1,23.45604838709677,21.3,25.6,81.2,25.9,
 1982-02-01,9.4,5.0,27.8,24.297619047619047,22.4,26.8,79.5,27.1,
 1982-03-01,61.7,11.0,160.8,24.811559139784944,22.4,27.4,82.3,27.2,

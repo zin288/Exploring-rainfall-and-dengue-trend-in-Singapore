@@ -25,30 +25,44 @@ The cleaned datasets used for EDA are in the [`data`](./data/output) folder.
 |---|---|---|---|
 |dengue_cases|integer|df_dengue_yearly|Total number of dengue cases in a year|
 |---|---|---|---|
-|date|datetime64[ns]|cluster_df|date of case recorded|
-|street_name|object|cluster_df|street at which the case was reported|
-|dengue_cases|object|cluster_df|number of dengue cases|
-|latitude|float|cluster_df|latitude of location|
-|longitude|float|cluster_df|longitude of location|
-
+|date|datetime64[ns]|cluster_df|Date of case recorded|
+|street_name|object|cluster_df|Street at which the case was reported|
+|dengue_cases|object|cluster_df|Number of dengue cases|
+|latitude|float|cluster_df|Latitude of location|
+|longitude|float|cluster_df|Longitude of location|
 
 ---
 ### Summary of Analysis
 
-A yearly and monthly analysis of the rainfall and dengue data was done. 
+The yearly, monthly and cluster trends of number of rainy days and dengue data were done. 
 
 The monthly trends of number of rainy days and dengue cases are rather consistent over the years respectively. By comparing the two, dengue data shows a 2-months lagged period of the dengue cases from the number of rainy days. 
 
-There is no apparent correlation between the yearly trends - the peaks in dengue cases finds a corresponding peak in number of rainy days data, but this was not the case anymore for the past 10 years. This could be attributed to the Covid-19 situation, where it induced a spike in dengue cases initially due to more people staying at home and hence being exposed to breeding grounds, and a further surge in Covid-19 cases resulted in lack of detection and reporting of dengue cases which may have been impacted by reduced access to health facilities, and a hesitancy to seek medical care at facilities due to concern of possible exposure to COVID-19 patients.
+![Image Alt Text](./data/img/num_daily_rainfall_monthly_lagged.png)
 
-A cluster analysis was attempted at 3 regions to analyse the effectiveness of Project Wolbachia on dengue prevention. However, further work has to be done to anlayse the impact of number of rainy days on dengue cases. 
+There is no apparent correlation between the yearly trends - the peaks in dengue cases finds a corresponding peak in number of rainy days data, but this was not the case anymore for the past 10 years. This could be attributed to the Covid-19 situation, where it induced a spike in dengue cases initially due to more people staying at home and hence being exposed to breeding grounds [[5]](#5), and a further surge in Covid-19 cases resulted in lack of detection and reporting of dengue cases attributing to the reduced access to health facilities. There could be a hesitancy to seek medical care at facilities due to concern of possible exposure to COVID-19 patients as well [[6]](#6).
+
+![Image Alt Text](./data/img/num_daily_rainfall_yearly.png)
+
+A cluster analysis at 3 regions showed an effectiveness of Project Wolbachia on dengue prevention since the peak in cases at targeted areas (Tampines, Yishun) had not worsened over the years, as compared to the non-targeted region (Geylang). However, further work has to be done to anlayse the impact of number of rainy days on dengue cases at different regions. 
+
+![Image Alt Text](./data/img/dengue_cluster.png)
+
 
 --- 
-### Conclusions/Recommendations
-Based on the analysis, one recommendation will be to make use of the monthly rainfall forecast to optimise prevention strategy and medical resources, especially when preparing for spikes in dengue cases 2 months after a high number of daily rainfall. Besides that, historical dengue data could be shared openly since monthly data after 2019 are unable to be found. Lastly, Project Wolbachia can be accelerated at regions that are more prone to rainfall, which is also a future work for me to work on.
+### Conclusion
+
+Here are some recommndations based on the exploratory analysis:
+- Optimise resource allocation, prevention strategy and medical resources using monthly rainfall data or forecast
+     - Make use of the lead time of 2 months to allocate medical resources after long days of rainfall in a month. 
+     - For yearly forecast, take into consideration humidity and temperature data as well.
+- Data-sharing
+    - Historical dengue cases data were not provided anymore after 2019, and it was not easy to obtain cluster data well. These could be made avilable to leverage on crowd efforts to generate better analysis and prediction of dengue cases.
+- Accelerate Project Wolbachia to areas with greater variations in rainfall days.
+    - The west side tend to be the wetter region. Upon further analysis, Project Wolbachia may potentially be prioritised for those districts. [[7]](#7)
 
 
-## References
+### References
 
 <a id="1">[1]</a> 
 National Medical Research Council (NMRC). (n.d.). Integrated Dengue Surveillance in Singapore. Retrieved from https://www.nmrc.gov.sg/docs/default-source/about-us-library/idtf-summary-report.pdf
@@ -62,3 +76,12 @@ Met Office. (n.d.). Singapore Holiday Weather Guide. Retrieved from https://www.
 <a id="4">[4]</a> 
 Ng, L. C., et. al (2018). IL-1β, IL-6, and RANTES as biomarkers of Chikungunya severity. PLOS Neglected Tropical Diseases, 12(5), e0006935. https://doi.org/10.1371/journal.pntd.0006935
 
+<a id="5">[5]</a> 
+National Centre for Infectious Diseases. (n.d.). Epidemic Dengue in Singapore During COVID-19 Pandemic. Retrieved from https://www.ncid.sg/Health-Professionals/Articles/Pages/Epidemic-Dengue-in-Singapore-During-COVID-19-Pandemic.aspx
+
+<a id="6">[6]</a> 
+Channel NewsAsia. (n.d.). Dengue cases in Southeast Asia plummeted in 2021 amid COVID-19 lockdowns. Retrieved from https://www.channelnewsasia.com/asia/dengue-fever-plummet-southeast-asia-2021-covid-19-lockdown-1949581
+
+
+<a id="7">[7]</a> 
+Meteorological Service Singapore. (n.d.). Climate of Singapore. Retrieved from http://www.weather.gov.sg/climate-climate-of-singapore/
