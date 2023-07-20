@@ -8,9 +8,6 @@ Dengue is one of the top endemic diseases in Singapore and it has reached new hi
 
 ### Datasets
 
-The raw datasets used are in the [`data`](./data/) folder.  
-The cleaned datasets used for EDA are in the [`data`](./data/output) folder.
-
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
 |maximum_rainfall_in_a_day|float|df_month|Highest daily rainfall in each month|
