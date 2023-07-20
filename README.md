@@ -2,7 +2,7 @@
 
 ### Problem Statement
 
-Dengue is one of the top endemic diseases in Singapore and it has reached new highs in incidence and death rates in recent years [[1]](#1) [[2]](#2). With Singapore having a generally wet and hot climate, and rainfall being one of the main drivers of dengue transmission [[3]](#3) [[4]](#4), this project aims to provide an exploratory analysis on rainfall data and number of dengue cases to improve resource allocation and preventive measures, hence reducing public resource overload.
+Dengue is one of the top endemic diseases in Singapore and it has reached new highs in incidence and death rates in recent years [[1]](#1) [[2]](#2). With Singapore having a generally wet and hot climate, and rainfall being one of the main drivers of dengue transmission [[3]](#3) [[4]](#4), this project aims to provide an **exploratory analysis** on rainfall data and number of dengue cases to improve resource allocation and preventive measures, hence reducing public resource overload.
 
 ---
 
