@@ -31,15 +31,19 @@ Dengue is one of the top endemic diseases in Singapore and it has reached new hi
 ---
 ### Summary of Analysis
 
-The yearly, monthly and cluster trends of number of rainy days and dengue data were done. 
+#### Monthly Trend
 
 The monthly trends of number of rainy days and dengue cases are rather consistent over the years respectively. By comparing the two, dengue data shows a 2-months lagged period of the dengue cases from the number of rainy days. 
 
 ![Image Alt Text](./data/img/num_daily_rainfall_monthly_lagged.png)
 
+#### Yearly Trend
+
 There is no apparent correlation between the yearly trends - the peaks in dengue cases finds a corresponding peak in number of rainy days data, but this was not the case anymore for the past 10 years. This could be attributed to the Covid-19 situation, where it induced a spike in dengue cases initially due to more people staying at home and hence being exposed to breeding grounds [[5]](#5), and a further surge in Covid-19 cases resulted in lack of detection and reporting of dengue cases attributing to the reduced access to health facilities. There could be a hesitancy to seek medical care at facilities due to concern of possible exposure to COVID-19 patients as well [[6]](#6).
 
 ![Image Alt Text](./data/img/num_daily_rainfall_yearly.png)
+
+#### Cluster Trend
 
 A cluster analysis at 3 regions showed an effectiveness of Project Wolbachia on dengue prevention since the peak in cases at targeted areas (Tampines, Yishun) had not worsened over the years, as compared to the non-targeted region (Geylang). However, further work has to be done to anlayse the impact of number of rainy days on dengue cases at different regions. 
 
