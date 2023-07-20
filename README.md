@@ -58,9 +58,9 @@ Here are some recommndations based on the exploratory analysis:
      - Make use of the lead time of 2 months to allocate medical resources after long days of rainfall in a month. 
      - For yearly forecast, take into consideration humidity and temperature data as well.
 - Data-sharing
-    - Historical dengue cases data were not provided anymore after 2019, and it was not easy to obtain cluster data well. These could be made avilable to leverage on crowd efforts to generate better analysis and prediction of dengue cases.
+    - Historical dengue cases data were not provided anymore after 2019, and it was not easy to obtain cluster data. These could be made available to leverage on crowd efforts to generate better analysis and prediction of dengue cases.
 - Accelerate Project Wolbachia to areas with greater variations in rainfall days.
-    - The west side tend to be the wetter region. Upon further analysis, Project Wolbachia may potentially be prioritised for those districts. [[7]](#7)
+    - The west side tends to be the wetter region. Upon further analysis, Project Wolbachia may potentially be prioritised for those districts. [[7]](#7)
 
 
 ### References
